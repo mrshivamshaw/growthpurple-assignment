@@ -1,0 +1,355 @@
+{
+    "chapters": [
+      {
+        "name": "Algebra",
+        "questions": [
+        {
+          "context": "According to education reform advocate William Lee, incorporating hands-on learning (Arr in school curricula can student engagement and understanding: he contends review that experiential learning encourages active participation and deeper comprehension.",
+          "question": "Which choice completes the text with the most logical and precise word or phrase?",
+          "options": ["A diminish", "B expand", "C neglect", "D restrict"],
+          "answer": "B expand"
+        },
+        {
+          "context": "Maria is learning about algebraic expressions in her math class. She finds that simplifying expressions helps her solve problems faster. One day, she encounters the expression 3(x + 2) - 2(x - 3).",
+          "question": "What is the simplified form of the expression?",
+          "options": ["A x + 6", "B x + 12", "C x + 8", "D x + 3"],
+          "answer": "C x + 8"
+        },
+        {
+          "context": "John is practicing solving quadratic equations. He comes across the equation x^2 - 5x + 6 = 0.",
+          "question": "What are the roots of the equation?",
+          "options": ["A x = 1, 6", "B x = 2, 3", "C x = -1, -6", "D x = -2, -3"],
+          "answer": "B x = 2, 3"
+        },
+        {
+          "context": "In her algebra class, Sarah is learning about systems of equations. She is given the system: 2x + 3y = 6 and x - y = 2.",
+          "question": "What is the solution to the system of equations?",
+          "options": ["A x = 1, y = 2", "B x = 2, y = 1", "C x = 3, y = 0", "D x = 0, y = 3"],
+          "answer": "B x = 2, y = 1"
+        },
+        {
+          "context": "During an algebra test, David encounters a word problem: The sum of three consecutive integers is 51.",
+          "question": "What are the integers?",
+          "options": ["A 16, 17, 18", "B 15, 16, 17", "C 17, 18, 19", "D 14, 15, 16"],
+          "answer": "A 16, 17, 18"
+        },
+        {
+          "context": "Lucy is learning about exponential functions in algebra. She looks at the function f(x) = 2^x.",
+          "question": "What is the value of f(3)?",
+          "options": ["A 6", "B 8", "C 16", "D 9"],
+          "answer": "C 8"
+        },
+        {
+          "context": "Mark is solving an inequality problem: 3x - 4 > 2.",
+          "question": "What is the solution to the inequality?",
+          "options": ["A x > 2", "B x > 1", "C x > 3", "D x > 4"],
+          "answer": "B x > 2"
+        },
+        {
+          "context": "During an algebra quiz, Emma comes across the equation 4x^2 - 4x + 1 = 0.",
+          "question": "What is the nature of the roots of the equation?",
+          "options": ["A Real and distinct", "B Real and equal", "C Complex", "D Imaginary"],
+          "answer": "B Real and equal"
+        },
+        {
+          "context": "In algebra class, Noah is learning about absolute value functions. He is given the equation |x - 3| = 5.",
+          "question": "What are the solutions to the equation?",
+          "options": ["A x = -8, 8", "B x = 2, 4", "C x = -2, 2", "D x = 8, -2"],
+          "answer": "D x = 8, -2"
+        },
+        {
+          "context": "Olivia is solving a polynomial equation: x^3 - 6x^2 + 11x - 6 = 0.",
+          "question": "What are the roots of the polynomial?",
+          "options": ["A x = 1, 2, 3", "B x = -1, -2, -3", "C x = 1, 3, 5", "D x = 0, 1, 2"],
+          "answer": "A x = 1, 2, 3"
+        },
+        {
+          "context": "During an algebra exercise, Liam encounters the expression (2x - 3)(x + 4).",
+          "question": "What is the expanded form of the expression?",
+          "options": ["A 2x^2 + 5x - 12", "B 2x^2 + 8x - 3", "C 2x^2 - 8x + 12", "D 2x^2 - 5x - 12"],
+          "answer": "A 2x^2 + 5x - 12"
+        },
+        {
+          "context": "Sophia is learning about rational expressions. She needs to simplify the expression (x^2 - 9)/(x^2 - 3x).",
+          "question": "What is the simplified form of the expression?",
+          "options": ["A (x + 3)/(x - 3)", "B (x - 3)/(x + 3)", "C x/(x - 3)", "D (x + 3)/x"],
+          "answer": "D (x + 3)/x"
+        },
+        {
+          "context": "Ethan is solving an algebra problem involving factoring: x^2 - 10x + 25.",
+          "question": "What are the factors of the expression?",
+          "options": ["A (x - 5)^2", "B (x + 5)^2", "C (x - 5)(x + 5)", "D (x - 10)(x + 25)"],
+          "answer": "A (x - 5)^2"
+        }
+      ]
+      },
+      {
+        "name": "Advanced Maths",
+        "questions": [
+        {
+          "context": "In her advanced math class, Jenny is studying functions and their properties. She learns about the quadratic function f(x) = ax^2 + bx + c and how to find its vertex.",
+          "question": "What is the x-coordinate of the vertex of the function f(x) = 2x^2 - 4x + 1?",
+          "options": ["A 1", "B -1", "C 2", "D -2"],
+          "answer": "A 1"
+        },
+        {
+          "context": "During an advanced math competition, the participants were asked to solve an equation involving logarithms: log(x) + log(5) = 1.",
+          "question": "What is the value of x?",
+          "options": ["A 0.2", "B 0.5", "C 2", "D 5"],
+          "answer": "C 2"
+        },
+        {
+          "context": "Maria is working on a problem involving exponential growth. She learns that the population of a certain species of fish doubles every 3 years. If the current population is 1,000, what will the population be in 9 years?",
+          "question": "What is the population after 9 years?",
+          "options": ["A 3,000", "B 6,000", "C 8,000", "D 12,000"],
+          "answer": "C 8,000"
+        },
+        {
+          "context": "John is studying sequences and series in his advanced math class. He comes across the arithmetic sequence: 3, 7, 11, 15, ...",
+          "question": "What is the 10th term of the sequence?",
+          "options": ["A 39", "B 43", "C 47", "D 51"],
+          "answer": "C 39"
+        },
+        {
+          "context": "In an advanced calculus class, Sarah is learning about derivatives. She is asked to find the derivative of the function f(x) = 3x^2 + 2x - 5.",
+          "question": "What is the derivative of the function?",
+          "options": ["A 6x + 2", "B 6x - 2", "C 6x + 4", "D 6x - 4"],
+          "answer": "A 6x + 2"
+        },
+        {
+          "context": "Mark is solving an advanced trigonometry problem. He needs to find the value of sin(2θ) given that sin(θ) = 1/2.",
+          "question": "What is the value of sin(2θ)?",
+          "options": ["A 1", "B √3/2", "C 1/2", "D √3/4"],
+          "answer": "A 1"
+        },
+        {
+          "context": "Emma is learning about complex numbers in her advanced math class. She needs to find the product of the complex numbers (3 + 4i) and (1 - 2i).",
+          "question": "What is the product of the complex numbers?",
+          "options": ["A 11 - 2i", "B -5 + 10i", "C 7 + 8i", "D 3 + 8i"],
+          "answer": "B -5 + 10i"
+        },
+        {
+          "context": "Noah is practicing solving integrals. He encounters the integral ∫ (2x^3 - x^2 + 3x - 5) dx.",
+          "question": "What is the indefinite integral of the function?",
+          "options": ["A (1/2)x^4 - (1/3)x^3 + (3/2)x^2 - 5x + C", "B (1/2)x^4 - (1/3)x^3 + (3/2)x^2 + 5x + C", "C (1/4)x^4 - (1/3)x^3 + (3/2)x^2 - 5x + C", "D (1/4)x^4 - (1/3)x^3 + (3/2)x^2 - 5x - C"],
+          "answer": "C (1/4)x^4 - (1/3)x^3 + (3/2)x^2 - 5x + C"
+        },
+        {
+          "context": "Olivia is solving a problem involving matrices. She needs to find the determinant of the matrix [[2, 3], [1, 4]].",
+          "question": "What is the determinant of the matrix?",
+          "options": ["A 7", "B 8", "C 5", "D 10"],
+          "answer": "C 5"
+        },
+        {
+          "context": "Ethan is learning about probability in his advanced math class. He needs to find the probability of drawing an ace from a standard deck of 52 cards.",
+          "question": "What is the probability of drawing an ace?",
+          "options": ["A 1/13", "B 1/26", "C 1/52", "D 4/52"],
+          "answer": "A 1/13"
+        },
+        {
+          "context": "Sophia is studying limits in her advanced math class. She is asked to find the limit of the function f(x) = (2x^2 - 3x + 1)/(x - 1) as x approaches 1.",
+          "question": "What is the limit of the function?",
+          "options": ["A 0", "B 1", "C 2", "D Does not exist"],
+          "answer": "D Does not exist"
+        },
+        {
+          "context": "Liam is learning about vectors in his advanced math class. He is given the vectors a = (2, 3) and b = (1, 4).",
+          "question": "What is the dot product of the vectors a and b?",
+          "options": ["A 10", "B 11", "C 12", "D 13"],
+          "answer": "B 14"
+        },
+        {
+          "context": "Ava is solving an advanced math problem involving the binomial theorem. She needs to find the coefficient of x^2 in the expansion of (1 + x)^5.",
+          "question": "What is the coefficient of x^2?",
+          "options": ["A 10", "B 5", "C 15", "D 20"],
+          "answer": "A 10"
+        },
+        {
+          "context": "Jacob is studying advanced calculus and is asked to find the second derivative of the function f(x) = x^3 - 6x^2 + 11x - 6.",
+          "question": "What is the second derivative of the function?",
+          "options": ["A 6x - 6", "B 6x + 6", "C 6x - 12", "D 6x + 12"],
+          "answer": "A 6x - 12"
+        },
+        {
+          "context": "Mia is working on a problem involving limits and continuity. She needs to find the value of the limit lim(x -> 2) (x^2 - 4)/(x - 2).",
+          "question": "What is the value of the limit?",
+          "options": ["A 2", "B 4", "C 6", "D Does not exist"],
+          "answer": "A 4"
+        }
+      ]
+      },
+      {
+        "name": "Problem Solving and Data Analysis",
+        "questions": [
+        {
+          "context": "Tom is analyzing data from a survey conducted in his school. The survey asked students about their favorite subjects. The results are represented in a bar graph.",
+          "question": "If 30% of the students chose math as their favorite subject, and there are 200 students in total, how many students chose math?",
+          "options": ["A 50", "B 60", "C 30", "D 70"],
+          "answer": "B 60"
+        },
+        {
+          "context": "Lucy is solving a problem where she needs to calculate the mean of a set of data. The data set is: 4, 8, 6, 10, 12.",
+          "question": "What is the mean of the data set?",
+          "options": ["A 8", "B 7", "C 9", "D 10"],
+          "answer": "A 8"
+        },
+        {
+          "context": "Jack is working with a data set representing monthly sales figures: $1,200, $1,500, $1,800, $2,000, and $2,300.",
+          "question": "What is the median sales figure?",
+          "options": ["A $1,500", "B $1,800", "C $2,000", "D $2,300"],
+          "answer": "B $1,800"
+        },
+        {
+          "context": "Anna is examining a data set to find the mode. The data set is: 5, 7, 5, 8, 9, 7, 5.",
+          "question": "What is the mode of the data set?",
+          "options": ["A 5", "B 7", "C 8", "D 9"],
+          "answer": "A 5"
+        },
+        {
+          "context": "Paul is analyzing test scores in his class. He calculates the range of scores, which are: 45, 55, 60, 70, and 85.",
+          "question": "What is the range of the test scores?",
+          "options": ["A 40", "B 45", "C 50", "D 55"],
+          "answer": "A 40"
+        },
+        {
+          "context": "Emma is solving a problem involving probability. A bag contains 3 red balls, 5 blue balls, and 2 green balls. What is the probability of randomly drawing a blue ball?",
+          "question": "What is the probability of drawing a blue ball?",
+          "options": ["A 1/5", "B 5/10", "C 5/8", "D 3/10"],
+          "answer": "C 5/10"
+        },
+        {
+          "context": "Michael is working on a data set that represents the number of goals scored by a soccer team over 10 games: 1, 3, 2, 4, 2, 5, 3, 1, 4, 3.",
+          "question": "What is the standard deviation of the data set?",
+          "options": ["A 1.12", "B 1.41", "C 1.22", "D 1.15"],
+          "answer": "B 1.41"
+        },
+        {
+          "context": "Sophia is examining a histogram that represents the number of students in different age groups. The age groups are 10-15, 16-20, 21-25, and 26-30.",
+          "question": "If the histogram shows that the number of students in the 16-20 age group is the highest, what conclusion can be drawn?",
+          "options": ["A Most students are in the 16-20 age group", "B Few students are in the 16-20 age group", "C Most students are in the 10-15 age group", "D The data is inconclusive"],
+          "answer": "A Most students are in the 16-20 age group"
+        },
+        {
+          "context": "James is working with a data set to find the correlation coefficient between two variables: X and Y. The data points are: (1,2), (2,4), (3,6), (4,8).",
+          "question": "What is the correlation coefficient between X and Y?",
+          "options": ["A 0", "B 1", "C -1", "D 0.5"],
+          "answer": "B 1"
+        },
+        {
+          "context": "Olivia is analyzing data from a survey on weekly study hours. The data set is: 5, 7, 8, 6, 5, 9, 10, 7.",
+          "question": "What is the variance of the data set?",
+          "options": ["A 2.25", "B 3.5", "C 4.5", "D 5.5"],
+          "answer": "A 2.25"
+        },
+        {
+          "context": "Liam is solving a problem involving the line of best fit for a scatter plot. The equation of the line is y = 2x + 3.",
+          "question": "What is the y-intercept of the line?",
+          "options": ["A 2", "B 3", "C 5", "D 6"],
+          "answer": "B 3"
+        },
+        {
+          "context": "Emma is examining a data set of monthly temperatures. She calculates the mean temperature to be 22°C.",
+          "question": "If the temperatures are normally distributed, what percentage of data points would fall within one standard deviation of the mean?",
+          "options": ["A 68%", "B 95%", "C 99%", "D 50%"],
+          "answer": "A 68%"
+        },
+        {
+          "context": "Jacob is solving a problem involving percentages. He needs to find 15% of 200.",
+          "question": "What is 15% of 200?",
+          "options": ["A 30", "B 20", "C 25", "D 15"],
+          "answer": "A 30"
+        },
+        {
+          "context": "Ava is working on a data set representing annual income in thousands: 35, 42, 50, 55, 60.",
+          "question": "What is the mode of the data set?",
+          "options": ["A 35", "B 42", "C 50", "D No mode"],
+          "answer": "D No mode"
+        }
+      ]
+      },
+      {
+        "name": "Geometry and Trigonometry",
+        "questions": [
+        {
+          "context": "In a geometry class, Emily is studying the properties of a triangle. She is given a triangle with sides of lengths 5 cm, 12 cm, and 13 cm.",
+          "question": "What type of triangle is this?",
+          "options": ["A Right-angled triangle", "B Equilateral triangle", "C Isosceles triangle", "D Scalene triangle"],
+          "answer": "A Right-angled triangle"
+        },
+        {
+          "context": "Jacob is working on a problem involving the area of a circle. He needs to find the area of a circle with a radius of 7 cm.",
+          "question": "What is the area of the circle?",
+          "options": ["A 154 cm²", "B 49 cm²", "C 44 cm²", "D 100 cm²"],
+          "answer": "A 154 cm²"
+        },
+        {
+          "context": "Sophia is studying the properties of a rectangle. She knows that the length of the rectangle is 8 cm and the width is 5 cm.",
+          "question": "What is the perimeter of the rectangle?",
+          "options": ["A 26 cm", "B 30 cm", "C 40 cm", "D 24 cm"],
+          "answer": "A 26 cm"
+        },
+        {
+          "context": "Liam is solving a problem involving the volume of a cylinder. The cylinder has a radius of 4 cm and a height of 10 cm.",
+          "question": "What is the volume of the cylinder?",
+          "options": ["A 160π cm³", "B 120π cm³", "C 80π cm³", "D 100π cm³"],
+          "answer": "A 160π cm³"
+        },
+        {
+          "context": "Olivia is analyzing the angles of a triangle. She knows that two angles of the triangle are 45° and 55°.",
+          "question": "What is the measure of the third angle?",
+          "options": ["A 80°", "B 90°", "C 100°", "D 120°"],
+          "answer": "B 80°"
+        },
+        {
+          "context": "Emma is studying the Pythagorean theorem. She is given a right-angled triangle with legs of lengths 6 cm and 8 cm.",
+          "question": "What is the length of the hypotenuse?",
+          "options": ["A 10 cm", "B 12 cm", "C 8 cm", "D 14 cm"],
+          "answer": "A 10 cm"
+        },
+        {
+          "context": "James is working with trigonometric functions. He needs to find the sine of a 30° angle.",
+          "question": "What is the sine of 30°?",
+          "options": ["A 0.5", "B 0.6", "C 0.7", "D 0.8"],
+          "answer": "A 0.5"
+        },
+        {
+          "context": "Maria is studying circles and sectors. She needs to find the area of a sector of a circle with a radius of 5 cm and a central angle of 60°.",
+          "question": "What is the area of the sector?",
+          "options": ["A 13.1 cm²", "B 15.7 cm²", "C 16.7 cm²", "D 18.8 cm²"],
+          "answer": "A 13.1 cm²"
+        },
+        {
+          "context": "Jack is solving a problem involving the surface area of a cube. Each edge of the cube is 3 cm long.",
+          "question": "What is the surface area of the cube?",
+          "options": ["A 54 cm²", "B 36 cm²", "C 48 cm²", "D 72 cm²"],
+          "answer": "A 54 cm²"
+        },
+        {
+          "context": "Paul is working with trigonometric identities. He needs to simplify the expression sin²θ + cos²θ.",
+          "question": "What is the simplified form of the expression?",
+          "options": ["A 1", "B 0", "C sinθ", "D cosθ"],
+          "answer": "A 1"
+        },
+        {
+          "context": "Sophia is studying the properties of a parallelogram. She knows that one angle of the parallelogram is 120°.",
+          "question": "What is the measure of the angle adjacent to this 120° angle?",
+          "options": ["A 60°", "B 90°", "C 120°", "D 150°"],
+          "answer": "A 60°"
+        },
+        {
+          "context": "Jacob is working on a problem involving the length of an arc of a circle. The radius of the circle is 8 cm, and the central angle is 45°.",
+          "question": "What is the length of the arc?",
+          "options": ["A 6.28 cm", "B 4.4 cm", "C 2.8 cm", "D 7.2 cm"],
+          "answer": "A 6.28 cm"
+        },
+        {
+          "context": "Anna is solving a problem involving the cosine rule. She is given a triangle with sides of lengths 7 cm, 24 cm, and 25 cm.",
+          "question": "What is the cosine of the angle opposite the side of length 25 cm?",
+          "options": ["A 0.8", "B 0.6", "C 0.4", "D 0.5"],
+          "answer": "A 0.8"
+        }
+      ]
+      }
+    ]
+  }
+  
