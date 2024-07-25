@@ -7,8 +7,8 @@ const Question = () => {
   const question = chapters.chapters[0].questions[0];
   return (
     <div className="w-full mx-auto flex  justify-between items-start h-full  mt-12">
-      <h1 className=" w-[50%] h-full pr-7">{question.context}</h1>
-      <div className="w-[50%] border-l-[1px] border-slate-400 h-full pl-10">
+      <h1 className=" w-[50%] h-full pr-7 overflow-y-scroll">{question.context}</h1>
+      <div className="w-[50%] border-l-[1px] border-slate-400 h-full pl-10 overflow-y-scroll">
         <div className="w-full flex justify-between items-center bg-slate-100 rounded-3xl pr-4">
             <div className="flex justify-center items-center gap-1">
                 <div className="bg-black text-white rounded-b-3xl px-[17px] py-2 rounded-s-3xl font-semibold text-lg">1</div>
@@ -21,7 +21,7 @@ const Question = () => {
                 ABC
             </div>
         </div>
-        <h2 className=" text-black/75">{question.question}</h2>
+        <h2 className=" text-black/75 my-4">{question.question}</h2>
         <div className="w-full h-auto flex flex-col flex-wrap gap-5">
           {question?.options?.map((option, index) => {
             let value = option.slice(2,option.length-1)
