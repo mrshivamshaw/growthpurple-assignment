@@ -3,8 +3,10 @@ import Nav from '../Nav/Nav';
 import BottomNavigation from '../BottomNavigation/BottomNavigation';
 import Question from '../Question/Question';
 import QuestionStatusReviewModal from '../QuestionStatusReviewModal/QuestionStatusReviewModal';
+import { useTest } from '../../Context/TestContext';
 
 const TestView = () => {
+  const {modalActive} = useTest();
   return (
     
     <div className='w-[100vw] h-[100vh] bg-white relative flex flex-col items-center justify-center'>
@@ -12,7 +14,7 @@ const TestView = () => {
             <Nav/>
             <Question/>
         </div>
-        <QuestionStatusReviewModal></QuestionStatusReviewModal>
+        {modalActive && <QuestionStatusReviewModal/>}
         <BottomNavigation/>
     </div>
   )
