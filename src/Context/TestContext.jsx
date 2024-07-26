@@ -87,6 +87,7 @@ export const TestProvider = ({ children }) => {
       currentQuestionIndex,
       questions: currentChapter ? currentChapter.questions : [],
       completedQuestions,
+      setCurrentQuestionIndex,
       unansweredQuestions,
       reviewedQuestions,
       startChapterTest,
@@ -97,6 +98,7 @@ export const TestProvider = ({ children }) => {
       markQuestionAsReviewed,
       modalActive,
       setModalActive,
+      setReviewedQuestions
     };
   
     return (

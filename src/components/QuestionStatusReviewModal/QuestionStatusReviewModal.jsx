@@ -36,7 +36,6 @@ const QuestionStatusReviewModal = () => {
         <div className='w-full px-8 flex flex-wrap justify-center items-center gap-x-3 gap-y-5  my-5'>
             {
                 currentChapter.questions.map((question, index) => {
-                    console.log(question);
                     return (
                         <QuestionNumber num={index} key={index} />
                     )
