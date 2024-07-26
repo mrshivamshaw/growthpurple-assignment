@@ -11,7 +11,7 @@ const TestCard = ({ name, questions }) => {
   }
 
   return (
-    <div className="h-[170px] w-[27vw] border py-4 px-7 rounded-xl shadow-xl bg-white">
+    <div className="h-[170px] w-full md:w-full lg:w-[27vw] xl:w-[27vw] border py-4 px-7 rounded-xl shadow-xl bg-white">
       <div className="flex h-full flex-col justify-between items-start ">
         <div className="flex  flex-col justify-start items-start gap-[2px]">
           <h1 className="text-lg font-semibold">{name}</h1>

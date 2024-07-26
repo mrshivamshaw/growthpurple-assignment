@@ -22,8 +22,8 @@ const Nav = () => {
       };
 
   return (
-    <nav className="w-full flex justify-between items-center border border-gray-400 rounded-b-[35px] px-10 pb-4 pt-3">
-      <div className="-mr-28">
+    <nav className="w-full flex justify-between items-end md:items-end lg:items-center xl:items-center border border-gray-400 rounded-b-[35px] px-3 md:px-6 lg:px-10 xl:px-10 pb-4 pt-3">
+      <div className="-mr-28 hidden md:hidden lg:block xl:block">
         <h1 className="text-lg font-semibold">Reading and Writting Module 1</h1>
         <div className="flex justify-start items-center">
           <span className="">Directions</span>
@@ -34,7 +34,7 @@ const Nav = () => {
       </div>
 
       {showTime ? <div className="flex flex-col justify-between items-center">
-        <span className="text-2xl font-semibold">{formatTime(time)}</span>
+        <span className="text-lg md:text-lg lg:text-2xl xl:text-2xl font-semibold">{formatTime(time)}</span>
         <span>
           <button onClick={() => setShowTime(false)} className="px-5 py-1 font-semibold rounded-3xl border-2 border-black">
             Hide
@@ -42,8 +42,8 @@ const Nav = () => {
         </span>
       </div>
       :
-        <div className="flex flex-col justify-between items-center">
-          <span className="text-2xl font-semibold">Time Remaining</span>
+        <div className="flex flex-col justify-between items-start md:items-start lg:items-center xl:items-center">
+          <span className="text-lg md:text-lg lg:text-2xl xl:text-2xl font-semibold">Time Remaining</span>
           <span>
             <button onClick={() => setShowTime(true)} className="px-5 py-1 font-semibold rounded-3xl border-2 border-black">
               Show

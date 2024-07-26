@@ -8,9 +8,9 @@ const Question = () => {
   const {questions, currentQuestionIndex,markQuestionAsReviewed,reviewedQuestions,setReviewedQuestions} = useTest();
   const question = questions[currentQuestionIndex];
   return (
-    <div className="w-full mx-auto flex  justify-between items-start h-full  mt-12">
-      <h1 className=" w-[50%] h-full pr-7">{question?.context}</h1>
-      <div className="w-[50%] border-l-[1px] border-slate-400 h-full pl-10 overflow-y-scroll lg:overflow-y-hidden xl:overflow-y-hidden">
+    <div className="main-scroll w-full mx-auto flex flex-col md:flex-col lg:flex-row xl:flex-row justify-between items-start h-full  mt-5 md:mt-5 lg:mt-12 xl:mt-12 px-4 md:px-4 lg:px-0 xl:px-0 gap-8 overflow-y-scroll pb-6 md:pb-6 lg:pb-0 xl:pb-0">
+      <h1 className=" w-full md:w-full lg:w-[50%] xl:w-[50%] h-auto md:h-auto lg:h-full xl:h-full pr-0 md:pr-0 lg:pr-7 xl:pr-7">{question?.context}</h1>
+      <div className="w-full md:w-full lg:w-[50%] xl:w-[50%] border-l-[0px] md:border-l-[0px] lg:border-l-[1px] xl:border-l-[1px] border-slate-400 h-full pl-0 md:pl-0 lg:pl-10 xl:pl-10">
         <div className="w-full flex justify-between items-center bg-slate-100 rounded-3xl pr-4">
             <div className="flex justify-center items-center gap-1">
                 <div className="bg-black text-white rounded-b-3xl px-[17px] py-2 rounded-s-3xl font-semibold text-lg">{currentQuestionIndex+1}</div>
