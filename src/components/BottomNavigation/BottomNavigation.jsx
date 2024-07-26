@@ -11,7 +11,7 @@ const BottomNavigation = () => {
   return (
     <div className="w-full flex justify-between items-center border-t-2 h-[10%] px-4 bg-white">
       <h2 className="font-bold hidden md:hidden lg:block xl:block">DSAT Practice Test 1</h2>
-      <div onClick={() => setModalActive(true)} className="hover:cursor-pointer flex justify-start items-center font-semibold border-2 rounded-3xl px-4 py-1 md:py-1 lg:py-2 xl:py-2 gap-1">
+      <div onClick={() => setModalActive(true)} className="hover:cursor-pointer -mr-0 md:-mr-0 lg:xl:-mr-20 xl:-mr-20 flex justify-start items-center font-semibold border-2 rounded-3xl px-4 py-1 md:py-1 lg:py-2 xl:py-2 gap-1">
         <span className="">Question {currentQuestionIndex+1} of {currentChapter?.questions?.length}</span>
         <span>
           <MdKeyboardArrowUp className="text-xl" />
